@@ -5,7 +5,6 @@ contract("CryptoCoders", (accounts) => {
   before(async () => {
     contract = await CryptoCoders.deployed();
   });
-
   it("...get deployed", async () => {
     assert.notEqual(contract, "");
   });
